@@ -1,4 +1,5 @@
 const courses = [{
+    "id" : "0001",
     "title" : "Data Science",
     "description" : "CoreAI's Data Science course is designed to equip you with the comprehensive skills and knowledge required to excel in the field of data analysis and machine learning. This intensive program covers data exploration, modeling, and machine learning, making you proficient in a wide range of data science techniques.",
     "price" : 1000,
@@ -9,6 +10,7 @@ const courses = [{
     "tools" : "Stay current with industry-standard data science tools and best practices.",
     "career" : "Graduates excel in data analysis, machine learning, or launch innovative data-driven projects."
 }, {
+    "id" : "0002",
     "title" : "Data Analytics",
     "description" : "CoreAI's Data Analytics course is designed to equip you with the comprehensive skills and knowledge required to excel in the field of data analysis. This intensive program covers data collection, analysis, and reporting, making you proficient in a wide range of data analytics techniques.",
     "price" : 1000,
@@ -19,6 +21,7 @@ const courses = [{
     "tools" : "Stay current with industry-standard data analytics tools and best practices.",
     "career" : "Graduates excel in data analysis roles, business intelligence, or launch data-driven projects."
 }, {
+    "id" : "0003",
     "title" : "full stack web development",
     "description" : "CoreAI's Full Stack Development course is designed to equip you with the comprehensive skills and knowledge required to excel in the world of web development. This intensive program covers both front-end and back-end development, making you proficient in a wide range of technologies and tools.",
     "price" : 1000,
@@ -29,6 +32,7 @@ const courses = [{
     "tools" : "Stay current with industry-standard tools and best practices.",
     "career" : "Grads excel in web development roles or launch entrepreneurial projects."
 }, {
+    "id" : "0004",
     "title" : "Python Programming",
     "description" : "CoreAI's Python Programming course is designed to equip you with the comprehensive skills and knowledge required to excel in the world of programming. This intensive program covers Python fundamentals, data manipulation, and application development, making you proficient in a wide range of Python techniques.",
     "price" : 1000,
@@ -39,6 +43,7 @@ const courses = [{
     "tools" : "Stay current with industry-standard Python tools and best practices.",
     "career" : "Graduates excel in programming roles, web development, or launch innovative Python-based projects."
 }, {
+    "id" : "0005",
     "title" : "SQL Fundamentals",
     "description" : "CoreAI's SQL Fundamentals course is designed to equip you with the comprehensive skills and knowledge required to excel in the world of database management. This intensive program covers SQL basics, database design, and querying, making you proficient in a wide range of SQL techniques.",
     "price" : 1000,

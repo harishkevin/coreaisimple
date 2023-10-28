@@ -41,7 +41,7 @@ function Seeallcourses() {
                                     fontFamily: 'LufgaR',
                                     boxShadow: 'none',
                                     }} onClick={() => {
-                                        navigate(`/course/${course._id}`)
+                                        navigate(`/course/${course.id}`)
                                     }}>Join now</Button>
                             </div>
                         </div>

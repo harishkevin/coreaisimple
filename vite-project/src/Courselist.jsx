@@ -16,7 +16,7 @@ function Courseslist() {
             }}>
             {courses.map(course =>{
                 return <div className='courseList' onClick={() => {
-                    navigate(`/course/${course._id}`)
+                    navigate(`/course/${course.id}`)
                 }}>
                 <div style={{width: '100%'}}>
                     <img style={{

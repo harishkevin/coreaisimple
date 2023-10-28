@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import {Typography, Button, TextField} from '@mui/material'
 import emailjs from '@emailjs/browser';
@@ -12,9 +12,9 @@ function Selectedcourse() {
     const [phone, setPhone] = useState('');
 
     const navigate = useNavigate()
+    const courseId = useParams()
 
-    let course = Courses[0]
-    console.log(course)
+    let course = Courses.find(obj => obj.id === courseId.courseId)
 
     const sendEmail = (e) => {
     
