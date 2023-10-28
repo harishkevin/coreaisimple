@@ -22,7 +22,7 @@ const courses = [{
     "career" : "Graduates excel in data analysis roles, business intelligence, or launch data-driven projects."
 }, {
     "id" : "0003",
-    "title" : "full stack web development",
+    "title" : "Fullstack Web Development",
     "description" : "CoreAI's Full Stack Development course is designed to equip you with the comprehensive skills and knowledge required to excel in the world of web development. This intensive program covers both front-end and back-end development, making you proficient in a wide range of technologies and tools.",
     "price" : 1000,
     "module" : [{"1.1":"basics of js","1.2":"async await in js"},{"2.1":"intro to node.js","2.2":"middleware"},{"3.1":"mongoDB","3.2":"intro to react"},{"4.1":"recoil state management"}],
@@ -53,6 +53,21 @@ const courses = [{
     "guidance" : "Industry professionals offer valuable insights and support throughout your SQL journey.",
     "tools" : "Stay current with industry-standard SQL tools and best practices.",
     "career" : "Graduates excel in database management roles, data analysis, or launch SQL-based projects."
+}, {
+    "id": "0006",
+    "title": "Data Visualization",
+    "description": "CoreAI's Data Visualization course is designed to equip you with the comprehensive skills and knowledge required to excel in the field of data visualization and presentation. This intensive program covers data exploration, visualization techniques, and storytelling, making you proficient in a wide range of data visualization methods.",
+    "price": 1000,
+    "module": [
+        { "1.1": "Data exploration", "1.2": "Data sources" },
+        { "2.1": "Visualization techniques", "2.2": "Interactive charts" },
+        { "3.1": "Storytelling with data", "3.2": "Real-world projects" }
+    ],
+    "curriculum": "Data analysis, chart creation, interactive dashboards, and data storytelling for comprehensive data visualization expertise.",
+    "project": "Real-world projects enhance skills and build a strong data visualization portfolio.",
+    "guidance": "Industry experts offer valuable insights and support throughout your data visualization journey.",
+    "tools": "Stay current with industry-standard data visualization tools and best practices.",
+    "career": "Graduates excel in data visualization roles, data journalism, or launch innovative data presentation projects."
 }]
 
 export default courses

@@ -21,7 +21,7 @@ function Courses() {
                     WebkitBackgroundClip: 'text',
                     WebkitTextFillColor: 'transparent'
                 }}>
-            <Typography variant='h4' style={{fontFamily: 'Regular'}}><strong>Develope expertise through online courses, certifications offered by core.ai</strong></Typography>
+            <Typography variant='h4' style={{fontFamily: 'Regular'}}><strong>Develop expertise through online courses, certifications offered by core.ai</strong></Typography>
             <br />
             </div>
             <Typography style={{

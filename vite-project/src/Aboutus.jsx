@@ -35,7 +35,7 @@ function Aboutus() {
                 <Typography variant='h6' style={{
                     color: 'white',
                     fontFamily: 'Regular'
-                }}>&#x2713; Experienced instructors working in top companies</Typography>
+                }}>&#x2713; Experienced instructors working in top tier companies</Typography>
                 <br />
                 <Typography variant='h6' style={{
                     color: 'white',
