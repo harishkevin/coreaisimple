@@ -25,7 +25,7 @@ function Mentors() {
             <div className='changeWidth mobileTopBottomSpace'>
                 <img style={{
                     width: '100%'
-                }} src="./images/mentor.jpg" alt="" />
+                }} src="/images/mentor.jpg" alt="" />
             </div>
         </div>
     </>

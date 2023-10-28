@@ -17,7 +17,7 @@ function Joinwithus() {
         <div className='changeWidth mobileTopBottomSpace'>
             <img style={{
                 width: '100%'
-            }} src="./public/images/join.jpg" alt="" />
+            }} src="/images/join.jpg" alt="" />
         </div>
     </div>
     </>

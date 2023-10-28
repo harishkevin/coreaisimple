@@ -35,7 +35,7 @@ function Studentfeedback() {
                     height: 300,
                     boxShadow: '0px 0px 30px 4px rgba(230,230,230,1)'
                 }}>
-                    <Avatar alt="Remy Sharp" src="./images/indianstudent.jpeg" />
+                    <Avatar alt="Remy Sharp" src="/images/indianstudent.jpeg" />
                     <br />
                     <Typography style={{
                 fontFamily: 'Regular'
@@ -59,7 +59,7 @@ function Studentfeedback() {
                     height: 300,
                     boxShadow: '0px 0px 30px 4px rgba(220,220,220,1)'
                 }}>
-                    <Avatar alt="Remy Sharp" src="./images/indianstudent2.jpeg" />
+                    <Avatar alt="Remy Sharp" src="/images/indianstudent2.jpeg" />
                     <br />
                     <Typography style={{
                 fontFamily: 'Regular'
@@ -85,7 +85,7 @@ function Studentfeedback() {
                     height: 300,
                     boxShadow: '0px 0px 30px 4px rgba(220,220,220,1)'
                 }}>
-                    <Avatar alt="Remy Sharp" src="./images/indianstudent3.jpeg" />
+                    <Avatar alt="Remy Sharp" src="/images/indianstudent3.jpeg" />
                     <br />
                     <Typography style={{
                 fontFamily: 'Regular'

@@ -32,7 +32,8 @@ function Plan() {
                 flexDirection: 'column',
                 justifyContent: 'space-evenly',
                 alignItems: 'center',
-                padding: 10
+                padding: 10,
+                color: '#6837f5'
             }}>
                 <div style={{
                     display: 'flex',
@@ -41,22 +42,15 @@ function Plan() {
                     justifyContent: 'space-evenly',
                     height: '50%'
                 }}>
-                    <div style={{
-                        background: '#fe7f21',
-                        width: '80%',
-                        color: 'white',
-                        borderRadius: 50
-                    }}>
                         <Typography variant="h4" style={{
-                            fontFamily: 'Regular',
+                            fontFamily: 'LufgaR',
                             textAlign: 'center'
                         }}>Basic</Typography>
-                    </div>
                     <Typography variant="h3" style={{
                             fontFamily: 'Bold'
-                        }}>₹ 1000</Typography>
-                    <Typography>2 Months</Typography>
-                    <Typography>(1 Month Training + 1 Month Internship)</Typography>
+                        }}><sup>₹</sup>1000</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>2 Months</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>(1 Month Training + 1 Month Internship)</Typography>
                 
                 <Button variant='contained' style={{
                         textTransform : 'none',
@@ -72,11 +66,11 @@ function Plan() {
                     height: '50%',
                     textAlign: 'center'
                 }}>
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; Live Sessions and Recorded Sessions</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>&#x2713; Live Sessions and Recorded Sessions</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; 2 Major Projects</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>&#x2713; 2 Major Projects</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; Certificate of completion</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>&#x2713; Certificate of completion</Typography>
                 </div>
                 <Typography></Typography>
             </div>
@@ -87,7 +81,8 @@ function Plan() {
                 flexDirection: 'column',
                 justifyContent: 'space-evenly',
                 alignItems: 'center',
-                padding: 10
+                padding: 10,
+                color: '#6837f5'
             }}>
                 <div style={{
                     display: 'flex',
@@ -96,22 +91,15 @@ function Plan() {
                     justifyContent: 'space-evenly',
                     height: '50%'
                 }}>
-                    <div style={{
-                        background: '#fe7f21',
-                        width: '80%',
-                        color: 'white',
-                        borderRadius: 50
-                    }}>
                         <Typography variant="h4" style={{
-                            fontFamily: 'Regular',
+                            fontFamily: 'LufgaR',
                             textAlign: 'center'
                         }}>Standard</Typography>
-                    </div>
                     <Typography variant="h3" style={{
-                            fontFamily: 'Bold'
-                        }}>₹ 1500</Typography>
-                    <Typography>3 Months</Typography>
-                    <Typography>(1 Month Training + 2 Month Internship)</Typography>
+                            fontFamily: 'LufgaSB'
+                        }}><sup>₹</sup>1500</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>3 Months</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>(1 Month Training + 2 Month Internship)</Typography>
                     <Button variant='contained' style={{
                             textTransform : 'none',
                             borderRadius : '50px',
@@ -126,23 +114,24 @@ function Plan() {
                     height: '50%',
                     textAlign: 'center'
                 }}>
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; Live Sessions and Recorded Sessions</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>&#x2713; Live Sessions and Recorded Sessions</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; 1 Major Projects + 1 coreai's Real World Project</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>&#x2713; 1 Major Projects + 1 coreai's Real World Project</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; Certificate of completion</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>&#x2713; Certificate of completion</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; Professional Portfolio Building</Typography>
+                    <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>&#x2713; Professional Portfolio Building</Typography>
                 </div>
             </div>
             <div className="changeWidth width30 priceCardFlexItem" style={{
-                background: 'white',
+                background: '#6837f5',
                 borderRadius: '30px',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'space-evenly',
                 alignItems: 'center',
-                padding: 10
+                padding: 10,
+                color: 'white'
             }}>
                 <div style={{
                     display: 'flex',
@@ -151,20 +140,13 @@ function Plan() {
                     justifyContent: 'space-evenly',
                     height: '50%'
                 }}>
-                    <div style={{
-                        background: '#fe7f21',
-                        width: '80%',
-                        color: 'white',
-                        borderRadius: 50
-                    }}>
                         <Typography variant="h4" style={{
-                            fontFamily: 'Regular',
+                            fontFamily: 'LufgaR',
                             textAlign: 'center'
                         }}>Premium</Typography>
-                    </div>
                     <Typography variant="h3" style={{
-                            fontFamily: 'Bold'
-                        }}>₹ 3000</Typography>
+                            fontFamily: 'LufgaSB'
+                        }}><sup>₹</sup>3000</Typography>
                     <Typography>3 Months</Typography>
                     <Typography>(1 Month Training + 2 Month Internship)</Typography>
                     <Button variant='contained' style={{
@@ -181,17 +163,17 @@ function Plan() {
                     height: '50%',
                     textAlign: 'center'
                 }}>
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; Live Sessions and Recorded Sessions</Typography>
+                    <Typography style={{fontFamily: 'LufgaR'}}>&#x2713; Live Sessions and Recorded Sessions</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; 2 coreai's Real World Project</Typography>
+                    <Typography style={{fontFamily: 'LufgaR'}}>&#x2713; 2 coreai's Real World Project</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; Certificate of completion</Typography>
+                    <Typography style={{fontFamily: 'LufgaR'}}>&#x2713; Certificate of completion</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; Professional Portfolio Building</Typography>
+                    <Typography style={{fontFamily: 'LufgaR'}}>&#x2713; Professional Portfolio Building</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; Placaemnt masterclass with 4 Step Framework to land a Job</Typography>
+                    <Typography style={{fontFamily: 'LufgaR'}}>&#x2713; Placaemnt masterclass with 4 Step Framework to land a Job</Typography>
                     <br />
-                    <Typography style={{fontFamily: 'Regular'}}>&#x2713; 100% Placement Assistance Sessions</Typography>
+                    <Typography style={{fontFamily: 'LufgaR'}}>&#x2713; 100% Placement Assistance Sessions</Typography>
                 </div>
             </div>
         </div>

@@ -36,6 +36,7 @@ function Frontbanner() {
         setName('');
         setEmail('');
         setMessage('');
+        setPhone('')
 
     }
 
@@ -108,25 +109,25 @@ function Frontbanner() {
             <br />
                     <TextField label="name" variant='outlined' size='small' type="text" name="user_name" style={{
                         width: '85%'
-                        }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}}  onChange={(e) => {
+                        }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}} value={name} onChange={(e) => {
                             setName(e.target.value)
                         }}/>
                     <br />
                     <TextField label="phone" variant='outlined' size='small' type="text" name="user_phone" style={{
                         width: '85%'
-                        }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}}  onChange={(e) => {
+                        }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}} value={phone} onChange={(e) => {
                             setPhone(e.target.value)
                         }}/>
                     <br />
                     <TextField label="email" variant='outlined' size='small' type="text" name="user_email" style={{
                         width: '85%'
-                        }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}}  onChange={(e) => {
+                        }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}} value={email} onChange={(e) => {
                             setEmail(e.target.value)
                         }}/>
                     <br />
                     <TextField label="Your message" multiline rows={4} defaultValue=""  size='small' type="text" name="user_name" style={{
                         width: '85%'
-                        }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}}  onChange={(e) => {
+                        }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}} value={message} onChange={(e) => {
                             setMessage(e.target.value)
                         }}/>
                     <br />
