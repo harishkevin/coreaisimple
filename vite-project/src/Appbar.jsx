@@ -1,15 +1,19 @@
 import {Typography, Button} from '@mui/material'
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 
 
 function Appbar() {
     const navigate = useNavigate()
     const [ham,setHam] = useState(false)
+    const location = useLocation()
+
+    let loc = location.pathname
+
 
     return <>
     <div className='paddingLR appBar mobileTopBottomSpace webBar'>
-        <div style={{width: '10%', display: 'flex'}} onClick={() => {
+        <div className='logo' style={{width: '10%', display: 'flex'}} onClick={() => {
                 navigate('/')
             }}>
             <img style={{width: '90px'}} src='/images/corelogotextwhite.png' alt="" />
@@ -17,32 +21,32 @@ function Appbar() {
         <div className='flexSwitch' style={{
             display: 'flex'
         }}>
-           <div className='flexSwitch' style={{
+           <div className='appBarOption flexSwitch' style={{
                 display: 'flex'
             }}>
                 <Button style={{
-                    color: '#86868B',
+                    color: `${loc==='/courses'?'white':'#86868B'}`,
                     textTransform : 'capitalize',
                     fontFamily: 'LufgaR'
                 }} onClick={() => {
                     navigate('/courses')
                 }}>Courses</Button>
                 <Button style={{
-                    color: '#86868B',
+                    color: `${loc==='/plan'?'white':'#86868B'}`,
                     textTransform : 'capitalize',
                     fontFamily: 'LufgaR'
                 }} onClick={() => {
                     navigate('/plan')
                 }}>Our Plans</Button>
                 <Button style={{
-                    color: '#86868B',
+                    color: `${loc==='/about'?'white':'#86868B'}`,
                     textTransform : 'capitalize',
                     fontFamily: 'LufgaR'
                 }} onClick={() => {
                     navigate('/about')
                 }}>About</Button>
                 <Button style={{
-                    color: '#86868B',
+                    color: `${loc==='/register'?'white':'#86868B'}`,
                     textTransform : 'capitalize',
                     fontFamily: 'LufgaR'
                 }} onClick={() => {
@@ -53,7 +57,7 @@ function Appbar() {
     </div>
 
     <div className='paddingLR appBar mobileTopBottomSpace mobileBar'>
-        <div style={{width: '10%', display: 'flex'}} onClick={() => {
+        <div className='logo' style={{width: '10%', display: 'flex'}} onClick={() => {
                 navigate('/')
             }}>
             <img style={{width: '90px'}} src='/images/corelogotextwhite.png' alt="" />
@@ -69,28 +73,28 @@ function Appbar() {
                 display: 'flex'
             }}>
                 <Button style={{
-                    color: '#86868B',
+                    color: `${loc==='/courses'?'white':'#86868B'}`,
                     textTransform : 'capitalize',
                     fontFamily: 'LufgaR'
                 }} onClick={() => {
                     navigate('/courses')
                 }}>Courses</Button>
                 <Button style={{
-                    color: '#86868B',
+                    color: `${loc==='/plan'?'white':'#86868B'}`,
                     textTransform : 'capitalize',
                     fontFamily: 'LufgaR'
                 }} onClick={() => {
                     navigate('/plan')
                 }}>Our Plans</Button>
                 <Button style={{
-                    color: '#86868B',
+                    color: `${loc==='/about'?'white':'#86868B'}`,
                     textTransform : 'capitalize',
                     fontFamily: 'LufgaR'
                 }} onClick={() => {
                     navigate('/about')
                 }}>About</Button>
                 <Button style={{
-                    color: '#86868B',
+                    color: `${loc==='/register'?'white':'#86868B'}`,
                     textTransform : 'capitalize',
                     fontFamily: 'LufgaR'
                 }} onClick={() => {

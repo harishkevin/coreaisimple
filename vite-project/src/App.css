@@ -41,6 +41,7 @@ src: local("LufgaRegular"),
 
 .logo:hover {
 background: none;
+cursor: pointer;
 }
 
 .logoTypo {
@@ -188,11 +189,22 @@ display: none;
 display: none;
 }
 
+.appBarOption Button:hover {
+  background-color: transparent;
+}
+
 @media (max-width:800px) {
 .paddingLR {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+.courseList:hover {
+  transform: none;
+  background: #6837f5;
+  color: white;
+  }
+
 }
 
 @media (max-width:500px) {
