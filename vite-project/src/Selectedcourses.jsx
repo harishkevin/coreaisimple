@@ -138,7 +138,7 @@ function Selectedcourse() {
                     color: 'white',
                     fontFamily: 'LufgaR',
                     paddingTop: 6
-                }}>write us here: <a style={{color: '#fe7f21'}} href="mailto:michael@coreai.in?subject=course%20enquiry" target='_blank'>michael@coreai.in</a></Typography>
+                }}>write us here: <a style={{color: '#fe7f21'}} href="mailto:support@coreai.in?subject=course%20enquiry" target='_blank'>support@coreai.in</a></Typography>
         </div>
         </div>
     </div>
@@ -179,7 +179,7 @@ function Keyfeatures() {
             <br />
             <Typography style={{fontFamily: 'Regular'}}>&#x2713; Professional Portfolio Building</Typography>
             <br />
-            <Typography style={{fontFamily: 'Regular'}}>&#x2713; Placaemnt masterclass with 4 Step Framework to land a Job</Typography>
+            <Typography style={{fontFamily: 'Regular'}}>&#x2713; Placement masterclass with 4 Step Framework to land a Job</Typography>
             <br />
             <Typography style={{fontFamily: 'Regular'}}>&#x2713; 100% Placement Assistance Sessions</Typography>
                 </div>

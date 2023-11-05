@@ -148,7 +148,7 @@ function Frontbanner() {
                     color: 'white',
                     fontFamily: 'LufgaR',
                     paddingTop: 6
-                }}>write us here: <a style={{color: '#fe7f21'}} href="mailto:michael@coreai.in?subject=course%20enquiry" target='_blank'>michael@coreai.in</a></Typography>
+                }}>write us here: <a style={{color: '#fe7f21'}} href="mailto:support@coreai.in?subject=course%20enquiry" target='_blank'>support@coreai.in</a></Typography>
         </div>
         </div>
     </div>

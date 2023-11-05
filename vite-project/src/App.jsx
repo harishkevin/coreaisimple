@@ -10,6 +10,7 @@ import Seeallcourses from './Seeallcourses';
 import Selectedcourse from './Selectedcourses';
 import Plan from './Plan';
 import Register from './Register';
+import Aboutpage from './Aboutpage';
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='/course/:courseId' element={<Selectedcourse/>}/>
           <Route path='/plan' element={<Plan/>}/>
           <Route path='/register' element={<Register/>}/>
+          <Route path='/about' element={<Aboutpage/>}/>
         </Routes>
         <Belowbar></Belowbar>
       </Router>

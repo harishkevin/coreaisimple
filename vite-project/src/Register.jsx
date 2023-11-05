@@ -82,19 +82,19 @@ function Register() {
                 fontFamily: 'LufgaR'
             }}>Enroll now</Typography>
             <br />
-                    <TextField label="name" variant='outlined' size='small' type="text" name="user_name" style={{
+                    <TextField label="Name" variant='outlined' size='small' type="text" name="user_name" style={{
                         width: '85%'
                         }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}} value={name} onChange={(e) => {
                             setName(e.target.value)
                         }}/>
                     <br />
-                    <TextField label="phone" variant='outlined' size='small' type="text" name="user_phone" style={{
+                    <TextField label="Phone" variant='outlined' size='small' type="text" name="user_phone" style={{
                         width: '85%'
                         }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}} value={phone} onChange={(e) => {
                             setPhone(e.target.value)
                         }}/>
                     <br />
-                    <TextField label="email" variant='outlined' size='small' type="text" name="user_email" style={{
+                    <TextField label="E-mail" variant='outlined' size='small' type="text" name="user_email" style={{
                         width: '85%'
                         }} InputLabelProps={{style: {fontFamily: 'LufgaR', color: 'white'}}} value={email} onChange={(e) => {
                             setEmail(e.target.value)
@@ -131,7 +131,7 @@ function Register() {
                     {regSuccess && (<Typography style={{
                         color: 'white',
                         fontFamily: 'LufgaR'
-                    }}>&#x2713; Registered Successfully</Typography>)}
+                    }}>&#x2713; Registered Successfully <br /> Our team will contact you with-in 24hrs</Typography>)}
                     {regFail && (<Typography style={{
                         color: 'white',
                         fontFamily: 'LufgaR'

@@ -15,9 +15,7 @@ function Courseslist() {
                 alignItems: 'center'
             }}>
             {courses.map(course =>{
-                return <div className='courseList' onClick={() => {
-                    navigate(`/course/${course.id}`)
-                }}>
+                return <div className='courseList'>
                 <div style={{width: '100%'}}>
                     <img style={{
                         width: '80%',
@@ -37,6 +35,9 @@ function Courseslist() {
                         background: '#fe7f21',
                         fontFamily: 'LufgaR',
                         boxShadow: 'none',
+                        }} onClick={() => {
+                            navigate(`/course/${course.id}`)
+                            window.scrollTo(0, 0)
                         }}>Join now</Button>
                 </div>
                 </div>
