@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom"
 import {Typography, Button, TextField} from '@mui/material'
 import emailjs from '@emailjs/browser';
 import Courses from './assets/courses'
+import BasicAccordion from "./Accordian";
 
 
 function Selectedcourse() {
@@ -15,6 +16,19 @@ function Selectedcourse() {
     const courseId = useParams()
 
     let course = Courses.find(obj => obj.id === courseId.courseId)
+    let renderTools = false
+
+    if (courseId.courseId === '0001') {
+        renderTools = true
+    }
+    if (courseId.courseId === '0002') {
+        renderTools = true
+    }
+    if (courseId.courseId === '0003') {
+        renderTools = true
+    }
+    console.log(courseId.courseId)
+    console.log('rt',renderTools)
 
     const sendEmail = (e) => {
     
@@ -74,6 +88,10 @@ function Selectedcourse() {
                 }} onClick={() => {
                     navigate('/plan')
                 }}>Register<div style={{color: '#fe7f21', marginLeft: 5}}>&gt;</div></Button>
+            <br />
+            <br />
+            <br />
+            <BasicAccordion props={course}></BasicAccordion>
             
         </div>
         <div className="changeWidth width40 mobileTopBottomSpace" style={{
@@ -144,7 +162,7 @@ function Selectedcourse() {
     </div>
     {/* <Module module={course.module}/> */}
     <Cards1 curriculum={course.curriculum} project={course.project} guidance={course.project} tools={course.tools} career={course.career}></Cards1>
-    <Tools title={course.title}/>
+    {renderTools && (<Tools title={course.title}/>)}
     <Keyfeatures/>
     </>
 }
@@ -272,35 +290,35 @@ function Tools(props) {
     <br />
     <div>
     <Typography variant='h4' style={{fontFamily: 'Regular', color: 'black', textAlign: 'center'}}>Toolls you'll learn</Typography>
-    <div style={{
-        width: '100%',
-        height: '13vh',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-evenly',
-        // filter: 'grayscale(90%)'
-    }}>
+    <div className="flexSwitch tools">
         <img className="selectedCourseImg" style={{
-            width: 'auto' 
-        }} src={"/images/icon/"+props.title + ' 1'+'.svg'} alt="" />
+            width: 'auto',
+            height: '40px'
+        }} src={"/images/icon/"+props.title + ' 1'+'.png'} alt="" />
         <img className="selectedCourseImg" style={{
-            width: 'auto'
-        }} src={"/images/icon/"+props.title + ' 2'+'.svg'} alt="" />
+            width: 'auto',
+            height: '40px'
+        }} src={"/images/icon/"+props.title + ' 2'+'.png'} alt="" />
         <img className="selectedCourseImg" style={{
-            width: 'auto'
-        }} src={"/images/icon/"+props.title + ' 3'+'.svg'} alt="" />
+            width: 'auto',
+            height: '40px'
+        }} src={"/images/icon/"+props.title + ' 3'+'.png'} alt="" />
         <img className="selectedCourseImg" style={{
-            width: 'auto'
-        }} src={"/images/icon/"+props.title + ' 4'+'.svg'} alt="" />
+            width: 'auto',
+            height: '40px'
+        }} src={"/images/icon/"+props.title + ' 4'+'.png'} alt="" />
         <img className="selectedCourseImg" style={{
-            width: 'auto'
-        }} src={"/images/icon/"+props.title + ' 5'+'.svg'} alt="" />
+            width: 'auto',
+            height: '40px'
+        }} src={"/images/icon/"+props.title + ' 5'+'.png'} alt="" />
         <img className="selectedCourseImg" style={{
-            width: 'auto'
-        }} src={"/images/icon/"+props.title + ' 6'+'.svg'} alt="" />
+            width: 'auto',
+            height: '40px'
+        }} src={"/images/icon/"+props.title + ' 6'+'.png'} alt="" />
         <img className="selectedCourseImg" style={{
-            width: 'auto'
-        }} src={"/images/icon/"+props.title + ' 7'+'.svg'} alt="" />
+            width: 'auto',
+            height: '40px'
+        }} src={"/images/icon/"+props.title + ' 7'+'.png'} alt="" />
 
     </div>
     </div>

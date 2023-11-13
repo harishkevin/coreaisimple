@@ -74,7 +74,7 @@ function Register() {
             justifyContent: 'center',
             paddingTop: '3%',
             paddingBottom: '5%',
-            height: '60%'
+            height: '450px'
         }}>
             {/* <img style={{width: '30%'}} src="./src/assets/images/student3.png" alt="" /> */}
             <Typography variant='h5' style={{

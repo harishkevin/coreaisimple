@@ -1,6 +1,7 @@
 import {Typography} from '@mui/material'
 
 function Aboutus() {
+
     return <>
     <div className='paddingLR flexSwitch' style={{
         display: 'flex',
@@ -67,12 +68,12 @@ function Aboutus() {
                             objectFit: 'cover',
                             objectPosition: '0 1%'
                         }} src="./images/instructor1.jpeg" alt="" />
-                        <Typography variant='h6' style={{fontFamily: 'LufgaR'}}>Experienced Instructor</Typography>
+                        <Typography variant='h6' style={{fontFamily: 'LufgaR'}}>Hands-on Internship</Typography>
                         <br />
                         <Typography style={{
                     color: '#86868B',
                     fontFamily: 'Regular'
-                }}>Industry-seasoned instructors drive student excellence.</Typography>
+                }}>gain practical skills directly applicable to their field of study or work</Typography>
                     </center>
                 </div>
                 <div className='aboutCard' style={{

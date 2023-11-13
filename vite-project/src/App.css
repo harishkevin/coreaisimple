@@ -193,6 +193,14 @@ display: none;
   background-color: transparent;
 }
 
+.tools {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 @media (max-width:800px) {
 .paddingLR {
   padding-left: 5%;
@@ -337,6 +345,14 @@ padding-right: 0%;
 
 .mobHeight {
   height: 1300px;
+}
+
+.tools {
+  height: 40vh;
+}
+
+.tools > img {
+  margin-top: 10px;
 }
 
 }
