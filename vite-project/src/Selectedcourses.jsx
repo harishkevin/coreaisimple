@@ -11,6 +11,8 @@ function Selectedcourse() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [phone, setPhone] = useState('');
+    const [regSuccess, setRegSuccess] = useState(false)
+    const [regFail, setRegFail] = useState(false)
 
     const navigate = useNavigate()
     const courseId = useParams()
@@ -47,8 +49,11 @@ function Selectedcourse() {
         }, userID)
             .then((response) => {
             console.log('Email sent successfully:', response);
+            setRegSuccess(true)
+            setResetForm(true)
             }, (error) => {
             console.error('Email could not be sent:', error);
+            setRegFail(true)
             });
 
         // Clear the form fields after sending the email
@@ -147,6 +152,14 @@ function Selectedcourse() {
                     boxShadow: 'none',
                     width: '85%'
                         }} value='Send' type='submit' onClick={sendEmail}>Send your message</Button>
+                    {regSuccess && (<Typography style={{
+                        color: 'white',
+                        fontFamily: 'LufgaR'
+                    }}>&#x2713;Message sent successfully <br /> Our team will contact you with-in 24hrs</Typography>)}
+                    {regFail && (<Typography style={{
+                        color: 'white',
+                        fontFamily: 'LufgaR'
+                    }}> Message failed to send</Typography>)}
                     <Typography style={{
                     color: '#86868B',
                     fontFamily: 'LufgaR',

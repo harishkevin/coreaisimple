@@ -10,6 +10,8 @@ function Frontbanner() {
     const [message, setMessage] = useState('');
     const [phone, setPhone] = useState('');
     const navigate = useNavigate()
+    const [regSuccess, setRegSuccess] = useState(false)
+    const [regFail, setRegFail] = useState(false)
 
     const sendEmail = (e) => {
     
@@ -28,8 +30,11 @@ function Frontbanner() {
         }, userID)
             .then((response) => {
             console.log('Email sent successfully:', response);
+            setRegSuccess(true)
+            setResetForm(true)
             }, (error) => {
             console.error('Email could not be sent:', error);
+            setRegFail(true)
             });
 
         // Clear the form fields after sending the email
@@ -139,6 +144,15 @@ function Frontbanner() {
                     boxShadow: 'none',
                     width: '85%'
                         }} value='Send' type='submit' onClick={sendEmail}>Send your message</Button>
+                    <br />
+                    {regSuccess && (<Typography style={{
+                        color: 'white',
+                        fontFamily: 'LufgaR'
+                    }}>&#x2713;Message sent successfully <br /> Our team will contact you with-in 24hrs</Typography>)}
+                    {regFail && (<Typography style={{
+                        color: 'white',
+                        fontFamily: 'LufgaR'
+                    }}> Message failed to send</Typography>)}
                     <Typography style={{
                     color: '#86868B',
                     fontFamily: 'LufgaR',

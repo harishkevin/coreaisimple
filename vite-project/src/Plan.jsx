@@ -48,7 +48,7 @@ function Plan() {
                         }}>Basic</Typography>
                     <Typography variant="h3" style={{
                             fontFamily: 'Bold'
-                        }}><sup>₹</sup>1000</Typography>
+                        }}><sup>₹</sup>1500</Typography>
                     <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>2 Months</Typography>
                     <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>(1 Month Training + 1 Month Internship)</Typography>
                 
@@ -97,7 +97,7 @@ function Plan() {
                         }}>Standard</Typography>
                     <Typography variant="h3" style={{
                             fontFamily: 'LufgaSB'
-                        }}><sup>₹</sup>1500</Typography>
+                        }}><sup>₹</sup>1800</Typography>
                     <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>3 Months</Typography>
                     <Typography style={{fontFamily: 'LufgaR', color: 'black'}}>(1 Month Training + 2 Month Internship)</Typography>
                     <Button variant='contained' style={{
