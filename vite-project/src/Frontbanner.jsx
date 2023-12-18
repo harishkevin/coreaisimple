@@ -66,7 +66,7 @@ function Frontbanner() {
                     WebkitBackgroundClip: 'text',
                     WebkitTextFillColor: 'transparent',
                 }}>
-                    <Typography variant='h3' style={{fontFamily: 'Bold'}}>Learn to Code Generative AI like ChatGPT from Experienced AI Developers</Typography>
+                    <Typography variant='h4' style={{fontFamily: 'Bold'}}>Learn to Code Generative AI like ChatGPT from Experienced AI Developers</Typography>
                 </div>
                 <br />
                 <br />
